@@ -1,0 +1,73 @@
+.hero {
+  text-align: center;
+  padding: 80px 24px 48px;
+}
+
+.hero h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1c1c1a;
+}
+
+.hero > p {
+  color: #5f5e5a;
+  font-size: 15px;
+  margin-bottom: 28px;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 11px 28px;
+  background: #378add;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #185fa5;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 56px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e4dc;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: left;
+}
+
+.card i {
+  font-size: 24px;
+  color: #378add;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1c1c1a;
+}
+
+.card p {
+  font-size: 13px;
+  color: #888780;
+  line-height: 1.5;
+}
